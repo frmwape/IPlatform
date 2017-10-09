@@ -1,0 +1,10 @@
+<configuration>
+  <appSettings>
+    <add key="ConsumerViewApiUrl" value="" />
+    
+    <add key="ConsumerViewApiUsername" value="" />
+    
+    <add key="ConsumerViewApiPassword" value="" />
+    
+  </appSettings>
+</configuration>

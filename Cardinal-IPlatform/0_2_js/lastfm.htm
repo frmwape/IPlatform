@@ -1,0 +1,29 @@
+<html>
+
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/site.css" />
+        <script type="text/javascript" src="js/jquery-3.2.1.min.js" ></script>
+        <script type="text/javascript" src="js/lastfmfunctions.js"></script>
+    </head>
+    <body>
+        <form>
+            <h1>Last.FM artist search</h1>
+            <div>
+                <label>Artist name</label>
+                <input type="text" id="search-text" />
+                <input type="button" id="search-button" value="Search" onclick="processrequest('search-text', 'Artist name', 'search',  'artist-list', true)" />
+            </div>
+            <div class="row">
+                <div class="column">
+                    <h2>Search results</h2>
+                    <ul id="artist-list"></ul>
+                </div>
+                <div class="column">
+                    <h2>Favourite artists</h2>
+                    <ul id="favourite-list"></ul>
+                </div>
+            </div>
+        </form>
+    </body>
+
+</html>

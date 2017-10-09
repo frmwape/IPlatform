@@ -1,0 +1,30 @@
+Hi Claudio
+
+Herewith are some quick notes on the assessment answers I provided.
+
+0_0_fizz_bang
+I took an open - closed principle approach on this i.e. don't modify a class but extend it to enrich its functionality. You’ll see that I have extended CheckDivideResult with CheckDivideResultByThree. CheckDivideResultByThree has been extended by CheckDivideResultByFive. This allowed me to create an instance of CheckDivideResultByFive and have the base classes functions.
+
+0_1_css
+I altered the html where I felt I needed to in order to make this work. The css file is under the css folder.
+
+0_2_js
+I created an external js file under folder js - file lastfmfunctions.js. I then called the main processrequest function on the search button. The js file approach gives me the opportunity of creating a reusable component i.e. use it on another site etc. A minified version of the js file can also be created to improve on the loading performance (I didn't create a minified file on this exercise)
+
+0_3_cs
+I stuck to the rules request that is rule 1 and 3 only deal with dying hence no zombifying in there. Zombifying only happens in the zombifying rule class. Depending on the order the rules are loaded, one can play around with what rule is applied first etc. I stuck to order UnderPopulationRule, OverPopulationRule, ReproductionPopulationRule then ZombiePopulationRule.
+In terms of refactoring I did some lamba expression returns for one line function returns e.g. in class AliveState “public void Print(Action<string> output) => output("@");”. You’ll notice this approach in some other classes where possible. I also removed brackets on for loops where there was a one-line statement after.
+The output file name is GameOfLifeResults.txt which is outputted in the assembly bin / debug folder 
+
+  0_4_sql
+Queries as per folder, for query 6 I went with the union statements.
+
+0_5_mvc
+I went with an old school post to get to my PeopleLookupService class which provides the api function per readme.txt. 
+I provided a Province class under the util folder to provide the province dropdown list.
+For my choice of IOC container I used unity and you’ll see it’s configuration class in IOCConfig.cs under the app_start folder. For Inmemory and request services I used a container controlled lifetime as I needed a singleton class creation of these objects. This of course helps with the failure and success counts under request if you have the one instance copy. For the PeopleLookupService I kept to the default Transient as a system lifetime object is not required.  
+The refactoring aspect is similar to what I did in 0_3_cs, e.g. in the RequestService class “public void AddFailure() => _failure++;”
+
+Frank
+
+

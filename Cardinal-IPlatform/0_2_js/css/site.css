@@ -1,0 +1,42 @@
+body {
+    font-family: 'Droid Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+div {
+    word-wrap: break-word;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.column
+{
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+@media (min-width: 992px) {
+    .column {
+        float: left;
+    }
+
+    .column {
+        width: 20%;
+    }
+
+    .column-pull {
+        right: 20%;
+    }
+
+    .column-push {
+        left: 20%;
+    }
+
+    .column-offset {
+        margin-left: 20%;
+    }
+
+}

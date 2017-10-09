@@ -1,0 +1,12 @@
+D:\CardinalProject\0_0_fizz_bang\bin\Debug\0_0_Fizz_Bang.exe.config
+D:\CardinalProject\0_0_fizz_bang\bin\Debug\0_0_Fizz_Bang.exe
+D:\CardinalProject\0_0_fizz_bang\bin\Debug\0_0_Fizz_Bang.pdb
+D:\CardinalProject\0_0_fizz_bang\obj\Debug\0_0_Fizz_Bang.csproj.CoreCompileInputs.cache
+D:\CardinalProject\0_0_fizz_bang\obj\Debug\0_0_Fizz_Bang.exe
+D:\CardinalProject\0_0_fizz_bang\obj\Debug\0_0_Fizz_Bang.pdb
+D:\Cardinal-IPlatform\0_0_fizz_bang\bin\Debug\0_0_Fizz_Bang.exe.config
+D:\Cardinal-IPlatform\0_0_fizz_bang\bin\Debug\0_0_Fizz_Bang.exe
+D:\Cardinal-IPlatform\0_0_fizz_bang\bin\Debug\0_0_Fizz_Bang.pdb
+D:\Cardinal-IPlatform\0_0_fizz_bang\obj\Debug\0_0_Fizz_Bang.csproj.CoreCompileInputs.cache
+D:\Cardinal-IPlatform\0_0_fizz_bang\obj\Debug\0_0_Fizz_Bang.exe
+D:\Cardinal-IPlatform\0_0_fizz_bang\obj\Debug\0_0_Fizz_Bang.pdb

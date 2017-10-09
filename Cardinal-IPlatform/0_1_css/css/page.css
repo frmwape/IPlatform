@@ -1,0 +1,99 @@
+body {
+    width: 990px;
+    margin: 0 auto;
+    font-family: 'Droid Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+#menu ul li {
+    list-style: none;
+    display: inline;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#menu a {
+    text-decoration: none;
+}
+
+nav#menu ul li.active {
+    padding-bottom: 4px;
+    border-bottom: solid 4px green;
+}
+
+.row {
+    width: 1000px;
+    padding-bottom: 5px;
+}
+
+#Registration {
+    width: 500px;
+    padding: 5px;
+    padding-top: 0px;
+    top: 0px;
+}
+
+#Registration h3 {
+    margin-top: 5px;
+}
+
+.row-indent {
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-bottom: 20px;
+}
+
+.column-small {
+    position: relative;
+    padding-right: 100px;
+    width: 200px;
+    float: left;
+}
+
+.image-style {
+    position: absolute;
+    clip: rect(0px,135px,190px,0px);
+    top: 270px;
+}
+
+.image-frame {
+    float: right;
+    width: 145px;
+}
+
+.column-mid {
+    border: solid 1px lightgrey;
+    border-radius: 5px;
+    width: 690px;
+    float: left;
+    height: 200px;
+    margin-top: 0px;
+}
+
+.label {
+    display: inline-block;
+    width: 150px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    padding-right: 50px;
+}
+
+input[type=text] {
+    border: solid 1px lightgrey;
+    padding-right: 100px;
+    width: 100px;
+    height: 18px;
+}
+
+input[type=button] {
+    position: relative;
+    height: 40px;
+    background-color: rgb(110,159,217);
+    border: solid 1px black;
+    float: right;
+    right: 73px;
+}
+
+.row-footer {
+    position: absolute;
+    padding-top: 350px;
+}
